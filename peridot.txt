@@ -1,0 +1,10 @@
+YAAP-16
+Build Date: 26/08/2025
+- Initial release build
+- Update dalvik heap config
+- Decrease swappiness to 60%
+- Switch to lineage libperfmgr
+- Add support for A/B perf mode in OTA
+- Switch to full erofs partition
+- Kill WALT cpu boosting
+- Update cpu architecture
