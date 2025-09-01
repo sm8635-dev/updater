@@ -1,4 +1,30 @@
 YAAP-16
+Build Date: 02/09/2025
+- Switch to AOSP WFD
+- Drop dolby audio and vision
+- Drop mi sound firmware
+- Switch to Viper4Android
+- Fully enable ELF checks in peridot
+- Remove unused build description override
+- Enable dex2oat64 usage
+- Add WIFI AWARE support
+- Disable skia tracing by default
+- Use common compatibilty matrix from QCOM
+- Enable Batch writes for OTA installation
+- Panic to recovery not on bootloader
+- Enable support for IEEE80211AC
+- Lower swappiness to 60%
+- Hide /proc/net/unix to access some banking apps
+- Correct fingerprint permissions
+- Enable full ART optimizations with VDEX/ODEX
+- Disable ART debug for user build which YAAP build using
+- Fix some libperfmgr denials
+- Rework mi_thermald sepolicy
+- Enable AIDL fastboot HAL
+- Switch to NEXT kernel (Non root it's stock)
+- Switch architecture to armv9-a and cortex-a510 instead of kryo300
+
+YAAP-16
 Build Date: 26/08/2025
 - Initial release build
 - Update dalvik heap config
