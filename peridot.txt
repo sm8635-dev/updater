@@ -1,4 +1,17 @@
 YAAP-16
+Build Date: 29/12/2025
+- Initial YAAP QPR2
+- Rebase whole dt from grewal
+- Drop lineage touch
+- Use yaap high touch polling rate from source
+- Switch to LZ4
+- Fix fatal crash on dolby blobs
+- Override dexopt flags
+- Utilize task_profiles.json + cgroups.json
+- Drop hotword blobs
+- Upstream kernel from LOS 23
+
+YAAP-16
 Build Date: 02/09/2025
 - Switch to AOSP WFD
 - Drop dolby audio and vision
