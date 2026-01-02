@@ -1,4 +1,21 @@
 YAAP-16
+Build Date: 03/01/2026
+- Gms build
+- Fix crackling sound on random times
+- Drop camera watermarks (not neeeded won't ship miui camera)
+- Drop all OGL bin shaders
+- Drop render resources configs
+- Build DspVolumeSynchronizer
+- Disable by default frame rate feature
+- Import OOS modified volumes
+- Enable Qualcomm TrueWireless™ Stereo
+- Drop vulkan switch to SkiaGL Threaded
+- Add CONFIG_TMPFS_XATTR for mountify support
+- Reduce freeze timeout to 1 second for Android
+- Avoid allocating small buffers for map keys and values
+- Eliminate dynamic memory allocation in prctl_set_vma()
+
+YAAP-16
 Build Date: 29/12/2025
 - Initial YAAP QPR2
 - Rebase whole dt from grewal
