@@ -1,4 +1,15 @@
 YAAP-16
+Build Date: 21/01/2026
+- Drop QTI perfd switch to lineage libperfmgr
+- Readd hotword enrollment
+- Kill WALT cpu boosting
+- Bump clang to latest release
+- Add firmware on rom by default now
+- Build possible display components from source
+- Renable VULKAN
+- Switch to AOSP keymint strongbox and weaver
+
+YAAP-16
 Build Date: 03/01/2026
 - Gms build
 - Fix crackling sound on random times
