@@ -1,4 +1,18 @@
 YAAP-16
+Build Date: 29/01/2026
+- Redrop hotword enrollment (just no)
+- Remove hw effect
+- Remove shoebox effect
+- Sync dolby profiles according to our config
+- Import KmInstallKeybox
+- Supress harmless denials
+- Make PRODUCT_SHIPPING_API_LEVEL overrideable
+- Optimize sched_lib_name on popular games
+- Disable vendor.audio.feature.kpi_optimize.enable
+- Disable EGL image tracking
+- Modify thermal configs and fix fps drop and 4k videos (and drop all thermal*.conf since it's useless and we using one)
+
+YAAP-16
 Build Date: 21/01/2026
 - Drop QTI perfd switch to lineage libperfmgr
 - Readd hotword enrollment
