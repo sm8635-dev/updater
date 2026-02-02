@@ -1,4 +1,24 @@
 YAAP-16
+Build Date: 02/02/2026
+- Build OSS soundtrigger hal
+- Drop proprietary listen sound
+- Don't configure zram in QCOM init post boot (set 50% zram)
+- Readd Firmware back
+- Label countrycode and modemfirmware sepolicy (ota should be fix now)
+- Drop dolby stack, mispatializer and misoundfx (in favor of nonstop dolby crash in background)
+- Import new powerhint.json from qcom perf configs
+- Address powerhal denials
+- Drop qvr blobs
+- Drop qvr adsp blobs
+- Drop unused evass fw
+- Drop unused vpu fw
+- Import missing secure element permission
+- Use foreground uclamp for hwcomposer
+- Use foreground cpuset/uclamp for gralloc
+- Remove deprecated GSI AVB keys
+- Add erofs compress hints
+
+YAAP-16
 Build Date: 29/01/2026
 - Redrop hotword enrollment (just no)
 - Remove hw effect
