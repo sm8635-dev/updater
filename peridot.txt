@@ -1,4 +1,32 @@
 YAAP-16
+Build Date: 02/07/2026
+Device Tree:
+- Introduce DeviceSettings and add new fastcharge by YAAP
+- Drop swappiness to 60%
+- Setup DeviceAsWebcam
+- Set PRODUCT_ENABLE_UFFD_GC to true
+- Build missing KeyMint HAL version
+
+Kernel:
+- Merge to latest lineage sm8650 kernel
+- Upstream to latest 6.1.161
+- selinux: Avoid dynamic memory allocation for INITCONTEXTLEN buffers
+- bpf: Avoid allocating small buffers for map keys and values
+- selinux: Avoid dynamic memory allocation for temporary scontext buffers
+- kernel: Eliminate dynamic memory allocation in prctl_set_vma()
+- ashmem: Rewrite to improve clarity and performance
+- ANDROID: ashmem: Add shmem_set_file to mm/shmem.c
+- sched/fair: Reduce PELT half-life from 32 ms to 16 ms
+- sched/core: Forbid Unity-based games from changing their CPU affinity
+- PM / freezer: Reduce freeze timeout to 1 second for Android
+- int_sqrt: Improve 3x faster integer sqrt.
+- fs: Improve eventpoll logging to stop indicting timerfd
+- selinux: Remove audit dependency
+- kernel: Introduce SBalance IRQ balancer
+- arm64: Allow IPI_WAKEUP to be used outside of the ACPI parking protocol
+- sched/cass: Introduce the Capacity Aware Superset Scheduler
+
+YAAP-16
 Build Date: 02/02/2026
 - Build OSS soundtrigger hal
 - Drop proprietary listen sound
