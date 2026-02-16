@@ -1,4 +1,40 @@
 YAAP-16
+Build Date: 02/16/2026
+Device Tree:
+- peridot: Enable zram writeback
+- peridot: rootdir: Correct zram parameter names
+- peridot: Disable Skia tracing by default
+- peridot: Drop LMK
+- peridot: Enable support for high touch polling rate (use hidl touch for it)
+- peridot: Use HintManager for HWUI
+- peridot: rootdir: Kang compressions and garbage collection options from zumapro fstab
+- peridot: rootdir: Remove discard from metadata f2fs
+- peridot: Build KProfiles and label it properly
+- peridot: Simplify load kernel dcvs_boost driver
+- peridot: Drop walt scheduler
+- peridot: modules: Drop msm performance
+- Revert "peridot: Drop stock recovery on rom"
+- Revert "peridot: thermal: Modify our thermal configs properly"
+
+Kernel:
+- pineapple_gki.config: Disable walt
+- arm64: pineapple configs: Disable CONFIG_MSM_PERFORMANCE
+- cpufreq: Introduce a simple cpu (max) boost driver
+- gki_defconfig: Enable boost max driver
+- kernel: Boost CPUs for 100ms when zygote forks
+- kernel: Boost whenever a zygote-forked process becomes a top app
+- soc/qcom/dcvs: Implement a simple boosting driver
+- drivers: Import kprofiles
+- cpufreq: schedutil: Set default rate limit to 2000 us
+- sound: usb: audio: Prevent Null pointer dereference in uaudio_disconnect()
+- kernel: printk: Filter out some userspace logs
+- thermal_sysfs: Use vmalloc for cooling_device_stats_setup()
+- schedutil: Allow CPU frequency changes to be amended before they're set
+- mbcache: Speed up cache entry creation
+- ANDROID: gki_defconfig: Enable AUTOFDO_CLANG for AutoFDO optimizations
+- simple_lmk: Introduce Simple Low Memory Killer for Android
+
+YAAP-16
 Build Date: 02/07/2026
 Device Tree:
 - Introduce DeviceSettings and add new fastcharge by YAAP
