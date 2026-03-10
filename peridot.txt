@@ -1,4 +1,23 @@
 YAAP-16
+Build Date: 03/10/2026
+Device Tree:
+- peridot: wlan: Enable Optimized Power Management
+- peridot: Disable kpti
+- peridot: Use sony pdx237 c2 service
+
+Kernel:
+- cgroup: Increase kp 3 boost duration
+- UPSTREAM: kbuild: Add AutoFDO support for Clang build
+- ANDROID: Fix adding cflags for CONFIG_AUTOFDO_CLANG
+- FROMLIST: AutoFDO: Remove the architecture specific config
+- scripts/Makefile.afdo: Enable fuzzy profile matching
+- treewide: Import and hardcode afdo profile
+- Makefile: set instr limit to 40 with AutoFDO
+- ANDROID: Update AutoFDO profile for 6.6.92
+- ANDROID: Update AutoFDO profile for 6.6.100
+- ANDROID: Update AutoFDO profile for 6.6.111
+
+YAAP-16
 Build Date: 02/16/2026
 Device Tree:
 - peridot: Enable zram writeback
