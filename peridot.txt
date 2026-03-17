@@ -1,4 +1,22 @@
 YAAP-16
+Build Date: 03/17/2026
+Device Tree:
+- peridot: Build MicroG by default
+- peridot: init: Increase zram to 8gb
+- peridot: parts: Add charging control via xiaomi parts
+- peridot: sepolicy: Label displayfeature denials (Miui color modes is fixed now)
+- peridot: sepolicy: Label bluetooth props
+- peridot: sepolicy: Allow system_app to access zram sysfs nodes
+- peridot: Changing vendor ID as QTI for Device ID Profile
+- peridot: Build ANGLE app
+- peridot: Set SurfaceFlinger min uclamp to 30%
+- peridot: Enable CameraX extensions support
+- peridot: sepolicy: Dontaudit camera hal default_prop
+
+Kernel:
+- Rebase whole tree source (Apatch and KSU should work now)
+
+YAAP-16
 Build Date: 03/10/2026
 Device Tree:
 - peridot: wlan: Enable Optimized Power Management
