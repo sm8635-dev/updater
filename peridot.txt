@@ -1,4 +1,26 @@
 YAAP-16
+Build Date: 03/28/2026
+Device Tree:
+- peridot: parts: Add charging control via xiaomi parts
+- peridot: sepolicy: Label bluetooth props
+- peridot: sepolicy: Allow system_app to access zram sysfs nodes
+- peridot: Initial sony dolby atmos
+- peridot: Load BT soundwire module
+- peridot: Fix 2 fingerprint on strong apps
+- peridot: Update from OS3.0.4.0.WNPMIXM
+- peridot: Pin Adreno blobs to WW-36.0210.1420.39
+- peridot: Properly patch mialgo and misr
+- peridot: Disable android rescue party
+- peridot: init: Switch to LZ4KD
+- peridot: Import Miui Camera
+
+Kernel:
+- android/simple_lmk: Move from vmpressure to PSI windows
+- simple_lmk: Tweak new psi-window based defaults
+- configs/gki: Enable MGLRU and PSI
+- lib: Import LZ4KD compression algorithm from HUAWEI
+
+YAAP-16
 Build Date: 03/17/2026
 Device Tree:
 - peridot: Build MicroG by default
