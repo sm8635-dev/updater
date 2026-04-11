@@ -1,4 +1,22 @@
 YAAP-16
+Build Date: 04/11/2026
+Device Tree:
+- peridot: init: Add option to use fscompress for F2FS
+- peridot: init: Use foreground uclamp for hwcomposer
+- peridot: init: Use foreground cpuset/uclamp for gralloc
+- peridot: Enable R8 optimizations for system_server and SystemUI
+- peridot: init: Import cgroup tuning from gs101
+- peridot: init: Manually place msm_drm and msm_kgsl_3d0 IRQs
+- peridot: init: Chown the cgroup.procs nodes
+- peridot: Include app debloater
+- peridot: Add batterysecret to usb group
+- peridot: Import device features on tree
+
+Kernel:
+- simple_lmk: Further tweak new window defaults to be more proactive
+- <linux/compiler_types.h>: Add the __signed_scalar_typeof() helper
+
+YAAP-16
 Build Date: 03/28/2026
 Device Tree:
 - peridot: parts: Add charging control via xiaomi parts
