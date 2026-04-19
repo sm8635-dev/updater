@@ -1,0 +1,13 @@
+YAAP-16
+Build Date: 20/04/2026
+
+Device Tree:
+• Add new adaptive Leica camera icon
+• Remove virtual framebuffer
+• Add thermal profiles
+• Add nonui notifier
+• Add more native executables on erofs hints
+• Bump architecture to armv9-2a
+• Disable PPU by default
+• Drop post dexopt boot
+• Switch to new reflex cpu scheduler
