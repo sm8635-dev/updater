@@ -1,13 +1,9 @@
 YAAP-16
-Build Date: 20/04/2026
+Build Date: 21/04/2026
 
 Device Tree:
-• Add new adaptive Leica camera icon
-• Remove virtual framebuffer
-• Add thermal profiles
-• Add nonui notifier
-• Add more native executables on erofs hints
-• Bump architecture to armv9-2a
-• Disable PPU by default
-• Drop post dexopt boot
-• Switch to new reflex cpu scheduler
+• Drop many old grahics prop
+• Update to latest OS3.0.6.0.WNPMIXM
+• Modify thermal configs according to daily use
+• Fix dolby decoders crash
+• Hook up edge filter modes in focaltech
