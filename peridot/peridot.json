@@ -1,0 +1,17 @@
+{
+  "response": [
+    {
+      "datetime": 1776639656,
+      "filename": "YAAP-16-HOMEMADE-peridot-20260420.zip",
+      "payload": [
+        {
+          "offset": 4785,
+          "FILE_HASH": "PqZjBCs0cwLHscMwu/CXE2RPOhxf4iDB+g6THTNGWX8=",
+          "FILE_SIZE": "2801858552",
+          "METADATA_HASH": "rxOSOFMsBO/+nEm0mmzSnObGE7aTmzIq3YjSy+vQi7Q=",
+          "METADATA_SIZE": "189629"
+        }
+      ]
+    }
+  ]
+}
