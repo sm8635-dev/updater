@@ -1,9 +1,10 @@
 YAAP-16
-Build Date: 21/04/2026
+Build Date: 28/04/2026
 
 Device Tree:
-• Drop many old grahics prop
-• Update to latest OS3.0.6.0.WNPMIXM
-• Modify thermal configs according to daily use
-• Fix dolby decoders crash
-• Hook up edge filter modes in focaltech
+• Update dada wfd to latest OS3.0
+• Build QTI GNSS HAL
+• Update QESDK apk
+• Guard PPU for gapps build
+• Drop lineage gallery
+• Switch to pixel power-libperfmgr
