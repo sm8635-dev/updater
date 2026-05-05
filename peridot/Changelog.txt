@@ -1,10 +1,12 @@
 YAAP-16
-Build Date: 28/04/2026
+Build Date: 05/05/2026
 
 Device Tree:
-• Update dada wfd to latest OS3.0
-• Build QTI GNSS HAL
-• Update QESDK apk
-• Guard PPU for gapps build
-• Drop lineage gallery
-• Switch to pixel power-libperfmgr
+• Update fastcharge UI to jetpack compose
+• Drop VRR toggle
+• Set zram to 70%
+• Drop mi_thermald and switch to thermal-engine-v2 by qcom
+• Fix some random crash on app
+• Update sf duration to 12.3ms
+• Undervolt gpu by default
+• Introduce new way to throttle battery while charging on new thermal
